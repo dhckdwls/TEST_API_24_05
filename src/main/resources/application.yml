@@ -13,3 +13,9 @@ spring:
     password: 
 mybatis:
   type-aliases-package: com.example.demo.vo
+
+weather:
+  api:
+    key: 7gBxrsj7WSHvOZjYdEQXGXuT9pq9L8NMGDZ9hzG7VnyftpPH7IIKkWxq2HkS94X9AsKLEzXCkaOZeH94lv28Bg%3D%3D  # 공공데이터포털에서 발급받은 API 키
+
+  
