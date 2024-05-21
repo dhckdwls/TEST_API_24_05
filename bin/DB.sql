@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS `Spring_AM_01`;
+CREATE DATABASE `Spring_AM_01`;
+USE `Spring_AM_01`;
+

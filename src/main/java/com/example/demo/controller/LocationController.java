@@ -1,6 +1,8 @@
 package com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -9,7 +11,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Controller
 public class LocationController {
 	
-	
+	@RequestMapping("/location")
+	@ResponseBody
 	public String fetchAndSaveData() {
 		String serviceKey = "7gBxrsj7WSHvOZjYdEQXGXuT9pq9L8NMGDZ9hzG7VnyftpPH7IIKkWxq2HkS94X9AsKLEzXCkaOZeH94lv28Bg==";
 		String apiUrl = "http://apis.data.go.kr/B551011/KorService1/areaBasedList1";
